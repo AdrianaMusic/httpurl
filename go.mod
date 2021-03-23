@@ -1,4 +1,4 @@
-module github.com/alokmenghrajani/httpurl
+module github.com/square/httpurl
 
 go 1.15
 
