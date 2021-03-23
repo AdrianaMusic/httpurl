@@ -4,7 +4,7 @@
 [![coverage](https://coveralls.io/repos/github/alokmenghrajani/httpurl/badge.svg?branch=main&service=github)](https://coveralls.io/github/alokmenghrajani/httpurl)
 [![report](https://goreportcard.com/badge/github.com/alokmenghrajani/httpurl)](https://goreportcard.com/report/github.com/alokmenghrajani/httpurl)
 
-Minimalistic Go library to make handling http URLs easier
+Minimalistic Go library to make handling http URLs easier.
 
 `httpurl` complements Golang's `url.URL` from the `net/url` standard library. The desire to implement `httpurl` stems
 from:
@@ -26,7 +26,7 @@ Instead of:
 ```
 	u, err := url.Parse("http://example.com/")
 	if err != nil {
-        // Need to handle this error
+		// Need to handle this error
 	}
 	q := u.Query()
 	q.Add("code", "1234")
